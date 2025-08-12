@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class arry{
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int s=sc.nextInt();
+        int c=sc.nextInt();
+        System.out.println("range"+Integer.MIN_VALUE+"to"+ Integer.MAX_VALUE);
+        char r=sc.next().charAt(0);
+        char ch=sc.next().charAt(0);
+        System.out.println(" Byte range"+Byte.MIN_VALUE+"to"+ Byte.MAX_VALUE);
+        Float p=sc.nextFloat();
+        Float m=sc.nextFloat();
+        System.out.println("range"+Float.MIN_VALUE+"to"+ Float.MAX_VALUE);
+
+    }
+}
